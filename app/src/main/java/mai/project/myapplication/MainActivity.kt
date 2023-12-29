@@ -88,8 +88,8 @@ import mai.project.myapplication.ui.theme.MyApplicationTheme
  * fun CustomCircularProgressIndicator() {
  *     CircularProgressIndicator(
  *         color = Color.Green,
- *         strokeWidth = 20.dp,
- *         modifier = Modifier.size(150.dp) // 您可以根據需要調整這個尺寸
+ *         strokeWidth = 2.dp,
+ *         modifier = Modifier.size(20.dp)
  *     )
  * }
  * ```
@@ -148,8 +148,8 @@ fun CustomButton(
 fun CustomCircularProgressIndicator() {
     CircularProgressIndicator(
         color = Color.Green,
-        strokeWidth = 20.dp,
-        modifier = Modifier.size(150.dp) // 您可以根據需要調整這個尺寸
+        strokeWidth = 2.dp,
+        modifier = Modifier.size(20.dp)
     )
 }
 
